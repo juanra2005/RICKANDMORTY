@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:fantasy
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    position: fixed;
+}
+.header{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+}
+
+.logo{
+    width: 5rem;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.img-logo{
+    width: 5rem;
+}
+
+.buscador{
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.Buscador{
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    background-color: #ffffff;   
+    width: 500px;
+    border: transparent;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+}
+
+.conten{
+    display: flex;
+    height: 30rem;
+    background-image: url(img/rickandmorty.jpg);
+    background-size: 20%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    color: #ffffff;
+    border: none;
+    font-weight: 900;
+    z-index: 1;
+    font-size: 3.625rem;
+}
+
+body nav{
+    padding-top: 5%;
+}
+nav{
+    background-color: #000;
+    padding-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+
+::selection {
+    color: #00ff37;
+    background: rgb(32, 35, 41);
+}
+
+.h1-img{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20rem;
+    width: 100%;
+}
+
+
+
+/* Personajes */
+
+.principal-title{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 3.625rem;
+}
+
+main{
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+    padding-bottom: 100px;
+}
+
+.container-personajes{
+    background-color: #ffffff;
+}
+
+.image-container{
+    
+    display: flex;
+}
+.image-container img{
+    width: 100%;
+}
+
+article{
+    padding: 10px;
+    box-shadow: 0px 0px 1px #000;
+    flex-direction:column;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+/* footer */
+
+footer{
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000;
+    color:#ffffff;
+    display: flex;
+    width: 100%;
+    font-size: 3.625rem;
+}
+
+.container-personajes h2{
+    font-size: 1.900rem;
+}
